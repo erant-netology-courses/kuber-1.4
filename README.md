@@ -11,12 +11,8 @@
 
 ## Задание 2
 
-Были проблемы с обнаружением запуска сервиса
+<img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.4/blob/main/2.jpg?raw=true" />
 
-Сперва попробовал - ожидаемое поведение:
+По умолчанию в MicroK8s стоит теперь traefik, поэтому нотация не работает. Менять путь не захотел. Поэтому получаем 404 уже от мультитула внутри (поэтому ответ nginx)
 
-<img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.3/blob/main/2_before.jpg?raw=true" />
-
-После повозился с тем как под обнаруживает запуск сервиса и получилось:
-
-<img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.3/blob/main/2_after.jpg?raw=true" />
+<img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.4/blob/main/2_404.jpg?raw=true" />
