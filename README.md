@@ -13,6 +13,10 @@
 
 <img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.4/blob/main/2.jpg?raw=true" />
 
-По умолчанию в MicroK8s стоит теперь traefik, поэтому нотация не работает. Менять путь не захотел. Поэтому получаем 404 уже от мультитула внутри (поэтому ответ nginx)
+По умолчанию в MicroK8s стоит теперь traefik, поэтому нотация не работает. Менять путь не захотел. Поэтому получаем 404 уже от мультитула внутри (поэтому ответ nginx).
 
 <img width="960" height="560" alt="image" src="https://github.com/erant-netology-courses/kuber-1.4/blob/main/2_404.jpg?raw=true" />
+
+Вот пример работы, так вроде тоже ок:
+
+<img width="960" height="860" alt="image" src="https://github.com/erant-netology-courses/kuber-1.4/blob/main/2_multitool.jpg?raw=true" />
