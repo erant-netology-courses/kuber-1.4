@@ -7,18 +7,18 @@ metadata:
 spec:
   rules:
   - http:
-    paths:
-    - path: /
-      pathType: Prefix
-      backend:
-        service:
-          name: frontend-svc
-          port:
-            number: 80
-    - path: /api
-      pathType: Prefix
-      backend:
-        service:
-          name: backend-svc
-          port:
-            number: 1180
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: frontend-svc
+            port:
+              number: 80
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: backend-svc
+            port:
+              number: 1180
